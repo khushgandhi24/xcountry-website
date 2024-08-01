@@ -3508,17 +3508,17 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(255, 72, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 31, 83, 0.25);
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #ffa480;
+  border-color: #FF1F53;
 }
 
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
-  background-color: #ffc8b3;
-  border-color: #ffc8b3;
+  background-color: #FF1F53;
+  border-color: #FF1F53;
 }
 
 .custom-control-input[disabled] ~ .custom-control-label, .custom-control-input:disabled ~ .custom-control-label {
@@ -9717,4 +9717,59 @@ p,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.jumbotron .quote {
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron .header h1 {
+  margin: 0;
+}
+
+.jumbotron .booking-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.jumbotron .form-group {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.jumbotron .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.jumbotron .form-group input,
+.jumbotron .form-group select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.jumbotron button {
+  background-color: #002a54;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.jumbotron button:hover {
+  background-color: #0056a6;
+  color: #fafafa;
 }
